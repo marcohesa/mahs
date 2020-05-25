@@ -1,4 +1,26 @@
-@import url(./partials/_global.css);
+.title {
+    color: white;
+    font-weight: bold;
+    text-shadow: 9px 14px 13px#000000;
+}
+
+.subtitle {
+    color: white;
+    font-weight: bold;
+    text-shadow: 9px 14px 13px#000000;
+}
+
+.title-alternative {
+    color: black;
+    font-weight: bold;
+
+}
+
+.subtitle-alternative {
+    color: black;
+    font-weight: bold;
+}
+
 
 html, body {
     margin: 0;
