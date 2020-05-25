@@ -8,17 +8,17 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
     //'/',
-    '/index.html',
-    '/css/partials/_global.css',
-    '/css/styles.css',
-    '/img/code.jpg',
-    '/img/dibujar.jpg',
-    '/img/exercise.jpg', 
-    '/img/fondo.jpg',
-    '/img/logo.png',
-    '/js/app.js',
-    '/js/navbar.js',
-    '/js/sw-utils.js',
+    'index.html',
+    'css/partials/_global.css',
+    'css/styles.css',
+    'img/code.jpg',
+    'img/dibujar.jpg',
+    'img/exercise.jpg', 
+    'img/fondo.jpg',
+    'img/logo.png',
+    'js/app.js',
+    'js/navbar.js',
+    'js/sw-utils.js',
 ];
 
 const APP_SHELL_INMUTABLE = [
