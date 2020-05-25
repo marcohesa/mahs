@@ -1,13 +1,13 @@
 
 var url = window.location.href;
-var swLocation = '/mahs/sw.js';
+var swLocation = '/mahs/SW.js';
 
 
 if ( navigator.serviceWorker ) {
 
 
     if ( url.includes('localhost') ) {
-        swLocation = '/sw.js';
+        swLocation = '/SW.js';
     }
 
 
