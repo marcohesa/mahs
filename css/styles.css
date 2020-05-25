@@ -228,10 +228,10 @@ nav ul li a {
 
 /*Star About*/
 #about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #c8c1a7de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2d3f51;;
 }
 
 #about .ccontainer {
