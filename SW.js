@@ -7,7 +7,7 @@ const DYNAMIC_CACHE   = 'dynamic-v2';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
-    '/',
+    //'/',
     '/index.html',
     '/css/partials/_global.css',
     '/css/styles.css',
