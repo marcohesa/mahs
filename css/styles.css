@@ -1,13 +1,13 @@
 .title {
     color: white;
     font-weight: bold;
-    text-shadow: 9px 14px 13px#000000;
+    text-shadow: 3px 4px 3px #0000
 }
 
 .subtitle {
     color: white;
     font-weight: bold;
-    text-shadow: 9px 14px 13px#000000;
+    text-shadow: 3px 4px 3px #0000
 }
 
 .title-alternative {
@@ -89,7 +89,7 @@ nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
-    box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px 1px black;
 }
 
 nav ul {
@@ -253,7 +253,7 @@ nav ul li a {
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
     transition: 0.3s ease-in-out;
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
