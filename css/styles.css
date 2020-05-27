@@ -107,13 +107,15 @@ nav ul {
 
 nav.black ul {
     background-color:rgba(255, 255, 255, 0.8);
-    color: #000;
+    color: #000!important;
 }
 nav.black .logo {
     filter: invert(0);
     -webkit-filter: invert(0);
 }
-
+nav.black a {
+    color: black!important;
+}
 nav ul li {
     display: inline-block;
     padding: 16px 40px;
@@ -307,6 +309,16 @@ nav ul li a {
 }
 /*End About*/
 
+/* Start blog*/
+#blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2d3f51;;
+}
+
+/* End blog*/
+
 
 
 
@@ -334,13 +346,16 @@ nav ul li a {
 
     nav.black ul, nav.black .menu-icon {
         background-color:rgba(255, 255, 255, 0.8)!important;
-        color: black;
+        color: black!important;
         display: block!important;
     }
 
     nav.black .logo {
         filter: invert(0);
         -webkit-filter: invert(0);
+    }
+    nav.black a {
+        color: black!important;
     }
     
 
